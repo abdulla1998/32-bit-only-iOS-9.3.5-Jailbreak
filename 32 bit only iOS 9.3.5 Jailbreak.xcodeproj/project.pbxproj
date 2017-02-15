@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA6A818C1E53EBE600F3C71B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6A818B1E53EBE600F3C71B /* main.m */; };
+		AA6A818F1E53EBE600F3C71B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6A818E1E53EBE600F3C71B /* AppDelegate.m */; };
+		AA6A81921E53EBE600F3C71B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6A81911E53EBE600F3C71B /* ViewController.m */; };
+		AA6A81951E53EBE600F3C71B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6A81931E53EBE600F3C71B /* Main.storyboard */; };
+		AA6A81981E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_Jailbreak.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA6A81961E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_Jailbreak.xcdatamodeld */; };
+		AA6A819A1E53EBE700F3C71B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6A81991E53EBE700F3C71B /* Assets.xcassets */; };
+		AA6A819D1E53EBE700F3C71B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6A819B1E53EBE700F3C71B /* LaunchScreen.storyboard */; };
+		AA6A81A81E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_JailbreakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6A81A71E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_JailbreakTests.m */; };
+		AA6A81B31E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_JailbreakUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6A81B21E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_JailbreakUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA6A81A41E53EBE700F3C71B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6A817F1E53EBE600F3C71B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA6A81861E53EBE600F3C71B;
+			remoteInfo = "32 bit only iOS 9.3.5 Jailbreak";
+		};
+		AA6A81AF1E53EBE700F3C71B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6A817F1E53EBE600F3C71B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA6A81861E53EBE600F3C71B;
+			remoteInfo = "32 bit only iOS 9.3.5 Jailbreak";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA6A81871E53EBE600F3C71B /* 32 bit only iOS 9.3.5 Jailbreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "32 bit only iOS 9.3.5 Jailbreak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6A818B1E53EBE600F3C71B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA6A818D1E53EBE600F3C71B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA6A818E1E53EBE600F3C71B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA6A81901E53EBE600F3C71B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA6A81911E53EBE600F3C71B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA6A81941E53EBE600F3C71B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA6A81971E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_Jailbreak.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _2_bit_only_iOS_9_3_5_Jailbreak.xcdatamodel; sourceTree = "<group>"; };
+		AA6A81991E53EBE700F3C71B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA6A819C1E53EBE700F3C71B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA6A819E1E53EBE700F3C71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6A81A31E53EBE700F3C71B /* 32 bit only iOS 9.3.5 JailbreakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "32 bit only iOS 9.3.5 JailbreakTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6A81A71E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_JailbreakTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_bit_only_iOS_9_3_5_JailbreakTests.m; sourceTree = "<group>"; };
+		AA6A81A91E53EBE700F3C71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6A81AE1E53EBE700F3C71B /* 32 bit only iOS 9.3.5 JailbreakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "32 bit only iOS 9.3.5 JailbreakUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6A81B21E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_JailbreakUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_bit_only_iOS_9_3_5_JailbreakUITests.m; sourceTree = "<group>"; };
+		AA6A81B41E53EBE700F3C71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA6A81841E53EBE600F3C71B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6A81A01E53EBE700F3C71B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6A81AB1E53EBE700F3C71B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA6A817E1E53EBE600F3C71B = {
+			isa = PBXGroup;
+			children = (
+				AA6A81891E53EBE600F3C71B /* 32 bit only iOS 9.3.5 Jailbreak */,
+				AA6A81A61E53EBE700F3C71B /* 32 bit only iOS 9.3.5 JailbreakTests */,
+				AA6A81B11E53EBE700F3C71B /* 32 bit only iOS 9.3.5 JailbreakUITests */,
+				AA6A81881E53EBE600F3C71B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA6A81881E53EBE600F3C71B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA6A81871E53EBE600F3C71B /* 32 bit only iOS 9.3.5 Jailbreak.app */,
+				AA6A81A31E53EBE700F3C71B /* 32 bit only iOS 9.3.5 JailbreakTests.xctest */,
+				AA6A81AE1E53EBE700F3C71B /* 32 bit only iOS 9.3.5 JailbreakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA6A81891E53EBE600F3C71B /* 32 bit only iOS 9.3.5 Jailbreak */ = {
+			isa = PBXGroup;
+			children = (
+				AA6A818D1E53EBE600F3C71B /* AppDelegate.h */,
+				AA6A818E1E53EBE600F3C71B /* AppDelegate.m */,
+				AA6A81901E53EBE600F3C71B /* ViewController.h */,
+				AA6A81911E53EBE600F3C71B /* ViewController.m */,
+				AA6A81931E53EBE600F3C71B /* Main.storyboard */,
+				AA6A81991E53EBE700F3C71B /* Assets.xcassets */,
+				AA6A819B1E53EBE700F3C71B /* LaunchScreen.storyboard */,
+				AA6A819E1E53EBE700F3C71B /* Info.plist */,
+				AA6A81961E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_Jailbreak.xcdatamodeld */,
+				AA6A818A1E53EBE600F3C71B /* Supporting Files */,
+			);
+			path = "32 bit only iOS 9.3.5 Jailbreak";
+			sourceTree = "<group>";
+		};
+		AA6A818A1E53EBE600F3C71B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA6A818B1E53EBE600F3C71B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA6A81A61E53EBE700F3C71B /* 32 bit only iOS 9.3.5 JailbreakTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA6A81A71E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_JailbreakTests.m */,
+				AA6A81A91E53EBE700F3C71B /* Info.plist */,
+			);
+			path = "32 bit only iOS 9.3.5 JailbreakTests";
+			sourceTree = "<group>";
+		};
+		AA6A81B11E53EBE700F3C71B /* 32 bit only iOS 9.3.5 JailbreakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA6A81B21E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_JailbreakUITests.m */,
+				AA6A81B41E53EBE700F3C71B /* Info.plist */,
+			);
+			path = "32 bit only iOS 9.3.5 JailbreakUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA6A81861E53EBE600F3C71B /* 32 bit only iOS 9.3.5 Jailbreak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6A81B71E53EBE700F3C71B /* Build configuration list for PBXNativeTarget "32 bit only iOS 9.3.5 Jailbreak" */;
+			buildPhases = (
+				AA6A81831E53EBE600F3C71B /* Sources */,
+				AA6A81841E53EBE600F3C71B /* Frameworks */,
+				AA6A81851E53EBE600F3C71B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "32 bit only iOS 9.3.5 Jailbreak";
+			productName = "32 bit only iOS 9.3.5 Jailbreak";
+			productReference = AA6A81871E53EBE600F3C71B /* 32 bit only iOS 9.3.5 Jailbreak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA6A81A21E53EBE700F3C71B /* 32 bit only iOS 9.3.5 JailbreakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6A81BA1E53EBE700F3C71B /* Build configuration list for PBXNativeTarget "32 bit only iOS 9.3.5 JailbreakTests" */;
+			buildPhases = (
+				AA6A819F1E53EBE700F3C71B /* Sources */,
+				AA6A81A01E53EBE700F3C71B /* Frameworks */,
+				AA6A81A11E53EBE700F3C71B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA6A81A51E53EBE700F3C71B /* PBXTargetDependency */,
+			);
+			name = "32 bit only iOS 9.3.5 JailbreakTests";
+			productName = "32 bit only iOS 9.3.5 JailbreakTests";
+			productReference = AA6A81A31E53EBE700F3C71B /* 32 bit only iOS 9.3.5 JailbreakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA6A81AD1E53EBE700F3C71B /* 32 bit only iOS 9.3.5 JailbreakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6A81BD1E53EBE700F3C71B /* Build configuration list for PBXNativeTarget "32 bit only iOS 9.3.5 JailbreakUITests" */;
+			buildPhases = (
+				AA6A81AA1E53EBE700F3C71B /* Sources */,
+				AA6A81AB1E53EBE700F3C71B /* Frameworks */,
+				AA6A81AC1E53EBE700F3C71B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA6A81B01E53EBE700F3C71B /* PBXTargetDependency */,
+			);
+			name = "32 bit only iOS 9.3.5 JailbreakUITests";
+			productName = "32 bit only iOS 9.3.5 JailbreakUITests";
+			productReference = AA6A81AE1E53EBE700F3C71B /* 32 bit only iOS 9.3.5 JailbreakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA6A817F1E53EBE600F3C71B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Brando1235703;
+				TargetAttributes = {
+					AA6A81861E53EBE600F3C71B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q73B3D4AK4;
+						ProvisioningStyle = Automatic;
+					};
+					AA6A81A21E53EBE700F3C71B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q73B3D4AK4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA6A81861E53EBE600F3C71B;
+					};
+					AA6A81AD1E53EBE700F3C71B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q73B3D4AK4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA6A81861E53EBE600F3C71B;
+					};
+				};
+			};
+			buildConfigurationList = AA6A81821E53EBE600F3C71B /* Build configuration list for PBXProject "32 bit only iOS 9.3.5 Jailbreak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA6A817E1E53EBE600F3C71B;
+			productRefGroup = AA6A81881E53EBE600F3C71B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA6A81861E53EBE600F3C71B /* 32 bit only iOS 9.3.5 Jailbreak */,
+				AA6A81A21E53EBE700F3C71B /* 32 bit only iOS 9.3.5 JailbreakTests */,
+				AA6A81AD1E53EBE700F3C71B /* 32 bit only iOS 9.3.5 JailbreakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA6A81851E53EBE600F3C71B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6A819D1E53EBE700F3C71B /* LaunchScreen.storyboard in Resources */,
+				AA6A819A1E53EBE700F3C71B /* Assets.xcassets in Resources */,
+				AA6A81951E53EBE600F3C71B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6A81A11E53EBE700F3C71B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6A81AC1E53EBE700F3C71B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA6A81831E53EBE600F3C71B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6A81981E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_Jailbreak.xcdatamodeld in Sources */,
+				AA6A81921E53EBE600F3C71B /* ViewController.m in Sources */,
+				AA6A818F1E53EBE600F3C71B /* AppDelegate.m in Sources */,
+				AA6A818C1E53EBE600F3C71B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6A819F1E53EBE700F3C71B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6A81A81E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_JailbreakTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6A81AA1E53EBE700F3C71B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6A81B31E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_JailbreakUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA6A81A51E53EBE700F3C71B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA6A81861E53EBE600F3C71B /* 32 bit only iOS 9.3.5 Jailbreak */;
+			targetProxy = AA6A81A41E53EBE700F3C71B /* PBXContainerItemProxy */;
+		};
+		AA6A81B01E53EBE700F3C71B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA6A81861E53EBE600F3C71B /* 32 bit only iOS 9.3.5 Jailbreak */;
+			targetProxy = AA6A81AF1E53EBE700F3C71B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA6A81931E53EBE600F3C71B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6A81941E53EBE600F3C71B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA6A819B1E53EBE700F3C71B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6A819C1E53EBE700F3C71B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA6A81B51E53EBE700F3C71B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA6A81B61E53EBE700F3C71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA6A81B81E53EBE700F3C71B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q73B3D4AK4;
+				INFOPLIST_FILE = "32 bit only iOS 9.3.5 Jailbreak/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brandonwithall.-2-bit-only-iOS-9-3-5-Jailbreak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA6A81B91E53EBE700F3C71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q73B3D4AK4;
+				INFOPLIST_FILE = "32 bit only iOS 9.3.5 Jailbreak/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brandonwithall.-2-bit-only-iOS-9-3-5-Jailbreak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA6A81BB1E53EBE700F3C71B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q73B3D4AK4;
+				INFOPLIST_FILE = "32 bit only iOS 9.3.5 JailbreakTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brandonwithall.-2-bit-only-iOS-9-3-5-JailbreakTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/32 bit only iOS 9.3.5 Jailbreak.app/32 bit only iOS 9.3.5 Jailbreak";
+			};
+			name = Debug;
+		};
+		AA6A81BC1E53EBE700F3C71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q73B3D4AK4;
+				INFOPLIST_FILE = "32 bit only iOS 9.3.5 JailbreakTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brandonwithall.-2-bit-only-iOS-9-3-5-JailbreakTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/32 bit only iOS 9.3.5 Jailbreak.app/32 bit only iOS 9.3.5 Jailbreak";
+			};
+			name = Release;
+		};
+		AA6A81BE1E53EBE700F3C71B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Q73B3D4AK4;
+				INFOPLIST_FILE = "32 bit only iOS 9.3.5 JailbreakUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brandonwithall.-2-bit-only-iOS-9-3-5-JailbreakUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "32 bit only iOS 9.3.5 Jailbreak";
+			};
+			name = Debug;
+		};
+		AA6A81BF1E53EBE700F3C71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Q73B3D4AK4;
+				INFOPLIST_FILE = "32 bit only iOS 9.3.5 JailbreakUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brandonwithall.-2-bit-only-iOS-9-3-5-JailbreakUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "32 bit only iOS 9.3.5 Jailbreak";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA6A81821E53EBE600F3C71B /* Build configuration list for PBXProject "32 bit only iOS 9.3.5 Jailbreak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6A81B51E53EBE700F3C71B /* Debug */,
+				AA6A81B61E53EBE700F3C71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6A81B71E53EBE700F3C71B /* Build configuration list for PBXNativeTarget "32 bit only iOS 9.3.5 Jailbreak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6A81B81E53EBE700F3C71B /* Debug */,
+				AA6A81B91E53EBE700F3C71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA6A81BA1E53EBE700F3C71B /* Build configuration list for PBXNativeTarget "32 bit only iOS 9.3.5 JailbreakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6A81BB1E53EBE700F3C71B /* Debug */,
+				AA6A81BC1E53EBE700F3C71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA6A81BD1E53EBE700F3C71B /* Build configuration list for PBXNativeTarget "32 bit only iOS 9.3.5 JailbreakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6A81BE1E53EBE700F3C71B /* Debug */,
+				AA6A81BF1E53EBE700F3C71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA6A81961E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_Jailbreak.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA6A81971E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_Jailbreak.xcdatamodel */,
+			);
+			currentVersion = AA6A81971E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_Jailbreak.xcdatamodel */;
+			path = _2_bit_only_iOS_9_3_5_Jailbreak.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA6A817F1E53EBE600F3C71B /* Project object */;
+}
