@@ -16,6 +16,7 @@
 		AA6A819D1E53EBE700F3C71B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6A819B1E53EBE700F3C71B /* LaunchScreen.storyboard */; };
 		AA6A81A81E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_JailbreakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6A81A71E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_JailbreakTests.m */; };
 		AA6A81B31E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_JailbreakUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6A81B21E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_JailbreakUITests.m */; };
+		AA6A81C11E54012400F3C71B /* ipad Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6A81C01E54012400F3C71B /* ipad Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		AA6A81AE1E53EBE700F3C71B /* 32 bit only iOS 9.3.5 JailbreakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "32 bit only iOS 9.3.5 JailbreakUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6A81B21E53EBE700F3C71B /* _2_bit_only_iOS_9_3_5_JailbreakUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_bit_only_iOS_9_3_5_JailbreakUITests.m; sourceTree = "<group>"; };
 		AA6A81B41E53EBE700F3C71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6A81C01E54012400F3C71B /* ipad Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "ipad Storyboard.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				AA6A81901E53EBE600F3C71B /* ViewController.h */,
 				AA6A81911E53EBE600F3C71B /* ViewController.m */,
 				AA6A81931E53EBE600F3C71B /* Main.storyboard */,
+				AA6A81C01E54012400F3C71B /* ipad Storyboard.storyboard */,
 				AA6A81991E53EBE700F3C71B /* Assets.xcassets */,
 				AA6A819B1E53EBE700F3C71B /* LaunchScreen.storyboard */,
 				AA6A819E1E53EBE700F3C71B /* Info.plist */,
@@ -252,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA6A81C11E54012400F3C71B /* ipad Storyboard.storyboard in Resources */,
 				AA6A819D1E53EBE700F3C71B /* LaunchScreen.storyboard in Resources */,
 				AA6A819A1E53EBE700F3C71B /* Assets.xcassets in Resources */,
 				AA6A81951E53EBE600F3C71B /* Main.storyboard in Resources */,
