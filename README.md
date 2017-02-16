@@ -6,7 +6,7 @@ EXPLOIT IS NOT YET INCLUDED, SO THE UI IS THE ONLY PART THAT'S WORKING RIGHT NOW
 
 Already supported: iPhone 4S
 
-Planned Support: all 32 bit devices
+Planned Support: all 32 bit devices on iOS 9.3.5 (13G36)
 
 Please do not open an issue for any silly reasons, it will just be closed right away!
 
